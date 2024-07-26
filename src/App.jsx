@@ -1,6 +1,6 @@
 import React from "react"
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from "react-router-dom"
-import{ About, Admission,Career,Complaints, Contact, Courses, Faculty, Footer, Gallery, Header, Home, Notice, Principal, StudentPortal } from './components/index'
+import{ About, Admission,BelowSocialbtn,Career,Complaints, Contact, Courses, Faculty, Footer, Gallery, Header, Home, Notice, Principal, StudentPortal } from './components/index'
 import Layout from './Layout'
 import './App.css'
 
@@ -22,7 +22,7 @@ function App() {
       <Route path='faculty' element={<Faculty />} />
       <Route path='notice' element={<Notice />} />
       <Route path='studentportal' element={<StudentPortal />} />
-      
+      <Route path='belowsocialbtn' element={<BelowSocialbtn />} />
       
       </Route>
     )

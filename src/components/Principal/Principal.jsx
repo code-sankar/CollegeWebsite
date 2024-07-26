@@ -2,69 +2,72 @@ import React from "react";
 
 function Principal() {
   return (
-    <div className="bg-gray-100 p-6 md:p-12 lg:p-16">
-      <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg flex flex-col lg:flex-row items-center lg:items-start">
-       
-        <div className="lg:w-1/3 flex justify-center lg:justify-start mb-6 lg:mb-0">
+    <div className=" mx-auto p-4 bg-gray-50 min-h-screen">
+      <div className="max-w-6xl mx-auto p-6 bg-white shadow-lg rounded-lg mt-8">
+        <h1 className="text-center text-4xl font-extrabold text-blue-800 mb-6">
+          From the Principal's Desk
+        </h1>
+        <p className="italic text-green-700 text-center border-l-4 border-blue-500 pl-4 my-4">
+          "Flowers leave part of their fragrance in the hand that bestows them"
+        </p>
+        <div className="flex flex-wrap md:flex-nowrap items-start mt-6">
+          <div className="md:w-3/4 pr-4">
+            <p className="text-gray-700 text-justify leading-relaxed mb-6">
+              Holy Name HS School, Cherekapar Sivasagar, has been renowned not
+              only for its academic excellence but also for its focus on moral
+              and character development, a concept we refer to as "holistic
+              formation". Our mission is to provide education that fosters
+              intellectual growth, discipline, moral integrity, and social
+              responsibility in our students. Education is a lifelong journey,
+              and we strive to lay a strong foundation for our students from
+              early years through secondary levels.
+            </p>
+            <p className="text-gray-700 text-justify leading-relaxed mb-6">
+              Our curriculum adheres to the academic framework set by SEBA for
+              high school and AHSEC for senior secondary education. We aim to
+              cultivate an environment of excellence and dedication, believing
+              in every student's potential to grow and excel. We are committed
+              to helping our students contribute positively and productively to
+              society.
+            </p>
+            <p className="text-gray-700 text-justify leading-relaxed mb-6">
+              With the support of the management, staff, students, and our
+              dedicated parents, we will continue to thrive and reach new
+              heights. Parents play a crucial role in shaping our children's
+              future, and their support is invaluable. I am deeply grateful for
+              their trust and partnership.
+            </p>
+            <p className="text-gray-700 text-justify leading-relaxed mb-6">
+              Education is not merely about preparing for future jobs but about
+              instilling moral and ethical values that guide one’s life. As
+              Mahatma Gandhi wisely said, "The best way to find yourself is to
+              lose yourself in the service of others." I am honored to lead this
+              esteemed institution with sincerity and dedication, and I promise
+              to work diligently to elevate our school to new levels of
+              excellence.
+            </p>
+            <p className="text-gray-700 text-center italic font-semibold mt-6">
+              Aristotle once said, "Educating the mind without educating the
+              heart is no education at all."
+            </p>
+          </div>
+          <div className="md:w-1/4 flex justify-center md:justify-end mt-4 md:mt-0 pr-2 pl-3">
+            <img
+              src="https://via.placeholder.com/150" // Replace with the actual URL for the principal's photo
+              alt="Principal"
+              className="w-96 h-40 shadow-lg transition duration-500 ease-in-out transform hover:scale-105 size-max"
+            />
+          </div>
+        </div>
+        <footer className="mt-8 flex flex-col items-center italic text-gray-600 text-center">
           <img
-            src="https://via.placeholder.com/150" // Replace with the actual image URL
-            alt="Principal"
-            className="w-40 h-40 object-cover rounded-full border-4 border-blue-800"
+            src="https://via.placeholder.com/150" // Replace with the actual URL for the signature
+            className="h-12 mb-2"
+            alt="Signature"
           />
-        </div>
-
-        
-        <div className="lg:w-2/3 lg:pl-6">
-          <h1 className="text-3xl font-bold mb-6 text-center lg:text-left text-green-800">
-            Principal's Message
-          </h1>
-          <p className="text-lg mb-4 leading-relaxed ">
-            Holy Name HS School Cherekapar Sivasagar has been, for years, known
-            not just for its academic excellence but also for focusing on moral
-            and character development, as referred to as "holistic formation".
-            It aims to provide an education that fosters intellectual growth,
-            discipline, moral integrity, and social responsibility in our
-            students. As education is a lifelong journey, the base is laid for
-            our students from lower classes through the secondary level.
-          </p>
-          <p className="text-lg mb-4 leading-relaxed">
-            Our school follows the academic curriculum framework as set by SEBA
-            for high school and by AHSEC for the senior secondary level. Our
-            institution aims to create an atmosphere of excellence and hard
-            work. We believe in the capacity of every student to grow and excel
-            in their potentiality, thereby enabling them to contribute
-            positively and productively to our society in the future.
-          </p>
-          <p className="text-lg mb-4 leading-relaxed">
-            I am confident that, with the support of the management, staff, and
-            students, we will continue to grow, prosper, and reach new heights
-            in our mission. Our parents are another significant strength in
-            molding the future of our children. Their consistent support
-            empowers us to do more and more. I extend my gratitude to them for
-            their faith in us. Education is not just a process of imparting
-            knowledge for a future job but a lifelong process that creates an
-            understanding of moral and ethical values to guide one’s life and
-            make our students the future hope of our country.
-          </p>
-          <p className="text-lg mb-4 leading-relaxed">
-            I would like to conclude this message with the words of Mahatma
-            Gandhi:{" "}
-            <q className="italic">
-              "The best way to find yourself is to lose yourself in the service
-              of others."
-            </q>{" "}
-            As I take on the responsibility of leading this school, with all
-            sincerity and humility, I dedicate myself to this noble calling. I
-            assure my beloved students, teachers, parents, non-teaching staff,
-            and well-wishers that with the help and guidance of Almighty God, I
-            will do everything possible to elevate this prestigious institution
-            to greater heights.
-          </p>
-          <p className="text-lg mt-8 text-right font-semibold">
-            Fr Hemanta Pegu <br />
-            Principal
-          </p>
-        </div>
+          <span className="text-lg font-semibold">Fr. Hemanta Pegu</span>
+          <span>(Principal)</span>
+        </footer>
       </div>
     </div>
   );

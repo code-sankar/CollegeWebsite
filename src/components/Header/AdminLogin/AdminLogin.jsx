@@ -1,6 +1,6 @@
 import React from 'react'
 
-function StudentAdminPage() {
+function AdminLogin() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function StudentAdminPage() {
   )
 }
 
-export default StudentAdminPage
+export default AdminLogin

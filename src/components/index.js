@@ -12,9 +12,10 @@ import Faculty from './Faculty/Faculty'
 import Notice from './Notice/Notice'
 import Career from './Career/Career'
 import StudentPortal from './StudentPortal/StudentPortal'
+import BelowSocialbtn from './BelowSocialButtons/BelowSocialbtn'
 
 
 
 
 
-export {About,Contact,Home,Gallery,Header,Footer,Principal,Courses,Complaints,Admission,Faculty,Notice,Career,StudentPortal}
+export {About,Contact,Home,Gallery,Header,Footer,Principal,Courses,Complaints,Admission,Faculty,Notice,Career,StudentPortal,BelowSocialbtn}

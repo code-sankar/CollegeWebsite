@@ -5,6 +5,7 @@ import VideoBlogSection from "./VideoBlogSection";
 import CommitteeSection from "./CommitteeSection";
 import ReviewAndFAQ from "./ReviewAndFAQ";
 import SocialMediaBar from "./SocialMediaBar";
+import StudentPortalBtn from '../StudentPortal/StudentPortalBtn'
 
 function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -35,6 +36,9 @@ function Home() {
 
   return (
     <div>
+      <div>
+        <StudentPortalBtn />
+      </div>
       <div>
       <section>
         <div className="relative h-screen w-full">

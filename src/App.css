@@ -6,3 +6,15 @@
   overflow: hidden;
   scroll-behavior: smooth;
 }
+
+/* Custom CSS to handle the transition of the mobile menu */
+.mobile-menu-link {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .mobile-menu-link {
+    display: block;
+  }
+}
+

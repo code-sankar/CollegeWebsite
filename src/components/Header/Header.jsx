@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import StudentAdmin from "./StudentAdmin";
-
+import AdminLoginBtn from "./AdminLogin/AdminLoginBtn";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 function Header() {
+  const [showMediaIcons, setShowMediaIcons] = useState(false);
+
   return (
     <header className="shadow z-50 top-0">
       <div className="flex flex-col md:flex-row justify-between items-center h-auto md:h-20 w-full bg-blue-600 p-4 shadow-lg">
@@ -25,17 +27,16 @@ function Header() {
           </h2>
         </div>
         <div className="flex items-center">
-          <StudentAdmin />
+          <AdminLoginBtn />
         </div>
       </div>
-      <div>
-        
-      </div>
-      <nav className="bg-white border-gray-200 px-4 lg:px-6 py-4 top-0 z-50">
+
+      <nav className="main-nav bg-white border-gray-200 px-4 lg:px-6 py-4 top-0 z-50">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <div
-            className="hidden lg:flex justify-between items-center w-full lg:w-auto lg:order-1"
-            id="mobile-menu"
+            className={`${
+              showMediaIcons ? "block" : "hidden"
+            } w-full lg:flex lg:w-auto lg:order-1`}
           >
             <ul className="flex flex-col lg:flex-row lg:space-x-8 mt-4 lg:mt-0 font-medium">
               <li>
@@ -50,7 +51,6 @@ function Header() {
                   Home
                 </NavLink>
               </li>
-              {/* Add other links here */}
               <li>
                 <NavLink
                   to="/principal"
@@ -175,6 +175,14 @@ function Header() {
           </div>
           <div className="hidden lg:block text-bold right-4 float-right pr-4 font-medium">
             +91 8064356687
+          </div>
+          <div className="lg:hidden">
+            <button
+              onClick={() => setShowMediaIcons(!showMediaIcons)}
+              className="text-gray-500 hover:text-gray-700 focus:outline-none focus:text-gray-700 "
+            >
+              <GiHamburgerMenu size={24} />
+            </button>
           </div>
         </div>
       </nav>

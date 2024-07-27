@@ -1,16 +1,31 @@
 import React, { useState } from "react";
+import {
+  FaLeaf,
+  FaBook,
+  FaChalkboardTeacher,
+  FaUserFriends,
+  FaFaucet,
+  FaTheaterMasks,
+  FaParking,
+  FaUtensils,
+  FaBed,
+  FaLaptop,
+  FaFlask,
+  FaDesktop,
+} from "react-icons/fa";
 
 // Details component
 const Details = ({ details }) => {
   const detailsStyle = {
     position: "absolute",
-    top: "110px",
+    top: "60px",
     left: "0",
     width: "200px",
     background: "#fff",
     border: "1px solid #ccc",
     padding: "10px",
     boxShadow: "0px 0px 10px rgba(0,0,0,0.1)",
+    zIndex: "1"
   };
 
   return <div style={detailsStyle}>{details}</div>;
@@ -18,39 +33,49 @@ const Details = ({ details }) => {
 
 const icons = [
   { title: "Clean / holistic",
-    details: "Details about Clean / holistic" },
+    details: "Details about Clean / holistic", 
+    icon: FaLeaf },
   { title: "Co-ciricul",
-    details: "Details about Co-ciricul" },
+    details: "Details about Co-ciricul", 
+    icon: FaBook },
   { title: "Dedicated teacher", 
-    details: "Details about Dedicated teacher" },
-  {
-    title: "NCC/scouts & guides",
-    details: "Details about NCC/scouts & guides",
-  },
+    details: "Details about Dedicated teacher", 
+    icon: FaChalkboardTeacher },
+  { title: "NCC/scouts & guides", 
+    details: "Details about NCC/scouts & guides", 
+    icon: FaUserFriends },
   { title: "Drinking water", 
-    details: "Details about Drinking water" },
+    details: "Details about Drinking water", 
+    icon: FaFaucet },
   { title: "Auditorium", 
-    details: "Details about Auditorium" },
+    details: "Details about Auditorium", 
+    icon: FaTheaterMasks },
   { title: "Parking", 
-    details: "Details about Parking" },
+    details: "Details about Parking", 
+    icon: FaParking },
   { title: "Canteen", 
-    details: "Details about Canteen" },
+    details: "Details about Canteen", 
+    icon: FaUtensils },
   { title: "Hostel", 
-    details: "Details about Hostel" },
+    details: "Details about Hostel", 
+    icon: FaBed },
   { title: "Smart classes", 
-    details: "Details about Smart classes" },
+    details: "Details about Smart classes", 
+    icon: FaLaptop },
   { title: "Science labs", 
-    details: "Details about Science labs" },
+    details: "Details about Science labs", 
+    icon: FaFlask },
   { title: "Comp labs", 
-    details: "Details about Comp labs" },
+    details: "Details about Comp labs", 
+    icon: FaDesktop },
 ];
 
-const CircleIcon = ({ title, details }) => {
+const CircleIcon = ({ title, details, Icon }) => {
   const [hover, setHover] = useState(false);
 
   const circleStyle = {
-    width: "100px",
-    height: "100px",
+    width: "60px",
+    height: "60px",
     borderRadius: "50%",
     background: "#ddd",
     display: "flex",
@@ -59,7 +84,12 @@ const CircleIcon = ({ title, details }) => {
     cursor: "pointer",
     textAlign: "center",
     position: "relative",
-    margin: "10px",
+    margin: "5px",
+    fontSize: "1.5em",
+  };
+
+  const iconStyle = {
+    fontSize: "inherit",
   };
 
   return (
@@ -68,7 +98,7 @@ const CircleIcon = ({ title, details }) => {
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
-      <div>{title} </div>
+      <Icon style={iconStyle} />
       {hover && <Details details={details} />}
     </div>
   );
@@ -79,14 +109,14 @@ const Items = () => {
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "center",
-    gap: "20px",
-    padding: "20px",
+    gap: "10px",
+    padding: "10px",
   };
 
   return (
     <div style={containerStyle}>
       {icons.map((icon, index) => (
-        <CircleIcon key={index} title={icon.title} details={icon.details} />
+        <CircleIcon key={index} title={icon.title} details={icon.details} Icon={icon.icon} />
       ))}
     </div>
   );

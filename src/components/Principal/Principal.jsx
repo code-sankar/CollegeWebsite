@@ -53,7 +53,7 @@ function Principal() {
           </div>
           <div className="md:w-1/4 flex justify-center md:justify-end mt-4 md:mt-0 pr-2 pl-3">
             <img
-              src="https://via.placeholder.com/150" // Replace with the actual URL for the principal's photo
+              src="src/Pictures/picturesoftheweb/Fr Hemanta Pegu.JPG" // Replace with the actual URL for the principal's photo
               alt="Principal"
               className="w-96 h-40 shadow-lg transition duration-500 ease-in-out transform hover:scale-105 size-max"
             />

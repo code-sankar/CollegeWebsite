@@ -13,9 +13,10 @@ import Notice from './Notice/Notice'
 import Career from './Career/Career'
 import StudentPortal from './StudentPortal/StudentPortal'
 import BelowSocialbtn from './BelowSocialButtons/BelowSocialbtn'
+import AdminLoginBtn from './Header/AdminLogin/AdminLoginBtn'
+import AdminSignUp from './Header/AdminLogin/AdminSignUp'
 
 
 
 
-
-export {About,Contact,Home,Gallery,Header,Footer,Principal,Courses,Complaints,Admission,Faculty,Notice,Career,StudentPortal,BelowSocialbtn}
+export {About,Contact,Home,Gallery,Header,Footer,Principal,Courses,Complaints,Admission,Faculty,Notice,Career,StudentPortal,BelowSocialbtn,AdminLoginBtn,AdminSignUp}

@@ -1,8 +1,9 @@
 import React from "react"
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from "react-router-dom"
-import{ About, Admission,BelowSocialbtn,Career,Complaints, Contact, Courses, Faculty, Footer, Gallery, Header, Home, Notice, Principal, StudentPortal } from './components/index'
+import{ About, AdminSignUp, Admission,BelowSocialbtn,Career,Complaints, Contact, Courses, Faculty, Footer, Gallery, Header, Home, Notice, Principal, StudentPortal } from './components/index'
 import Layout from './Layout'
 import './App.css'
+import AdminLogin from "./components/Header/AdminLogin/AdminLogin"
 
 function App() {
   const router = createBrowserRouter(
@@ -23,8 +24,10 @@ function App() {
       <Route path='notice' element={<Notice />} />
       <Route path='studentportal' element={<StudentPortal />} />
       <Route path='belowsocialbtn' element={<BelowSocialbtn />} />
-      
+      <Route path='adminLogin' element={<AdminLogin />} />
+      <Route path='signup' element={<AdminSignUp />} />
       </Route>
+      
     )
   )
   return (

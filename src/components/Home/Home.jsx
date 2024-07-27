@@ -10,10 +10,10 @@ import StudentPortalBtn from '../StudentPortal/StudentPortalBtn'
 function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLyBsr12Q4Sk7M-fALe2U4d3U7sRl3RXoWLw&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsISFoUdzdYDEOmNoGiZxsM-DUtRqhLLo3mQ&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlC8HdqGL-WlVmau66zaNX1sMDs88GQCSjYw&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQwfi7OQYE1pmOzB0HI4e2pA0GcJpaLZRf6Q&s",
+    "src/Pictures/IMG-20240721-WA0001.jpg",
+    "src/Pictures/IMG-20240721-WA0002.jpg",
+    "src/Pictures/IMG-20240721-WA0003.jpg",
+    "src/Pictures/IMG-20240721-WA0004.jpg",
   ];
 
   useEffect(() => {
@@ -36,9 +36,7 @@ function Home() {
 
   return (
     <div>
-      <div>
-        <StudentPortalBtn />
-      </div>
+     
       <div>
       <section>
         <div className="relative h-screen w-full">
@@ -96,6 +94,9 @@ function Home() {
       <section className=" p-2">
         <SocialMediaBar />
       </section>
+      <div>
+        <StudentPortalBtn />
+      </div>
       <section className="py-12 pt-2">
         <div className="bg-gradient-to-r from-green-200 to-blue-200 h-auto w-full rounded-lg shadow-lg p-20">
           <h1 className="text-center text-4xl font-bold underline mb-6 text-gray-800">

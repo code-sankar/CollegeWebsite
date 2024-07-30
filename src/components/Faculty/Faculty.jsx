@@ -32,14 +32,14 @@ function Faculty() {
         title: "6+ teaching experience",
         EduQua: "Msci Physics",
         Subject: "Physics",
-        photo: "https://via.placeholder.com/150",
+        photo: "src/Pictures/picturesoftheweb/Dristiraj phy.JPG",
       },
       {
         name: "Mr. Dipankar Kayshap",
         title: "7+ teaching experience",
         EduQua: "M.Sc",
         Subject: "Science/Chemistry",
-        photo: "https://via.placeholder.com/150",
+        photo: "src/Pictures/picturesoftheweb/Dipankar kashyap (1).jpg",
       },
       {
         name: "Mrs. Rajashree Chutia",
@@ -49,110 +49,110 @@ function Faculty() {
         photo: "https://via.placeholder.com/150",
       },
       {
-        name: "XYZ",
-        title: "xyz",
-        EduQua: "xyz",
-        Subject: "xyz",
+        name: "Miss.Anamika Borgohain",
+        title: "15+ teaching experience",
+        EduQua: "M.Sc [Geology], B.Ed",
+        Subject: "EVS",
         photo: "https://via.placeholder.com/150",
       },
       {
-        name: "XYZ",
-        title: "xyz",
-        EduQua: "xyz",
-        Subject: "xyz",
-        photo: "https://via.placeholder.com/150",
+        name: "Mr.Bhaskar Gogoi",
+        title: "10+ teaching experience",
+        EduQua: "M.Sc [Mathametics]",
+        Subject: "G.Maths, Adv.Maths",
+        photo: "src/Pictures/picturesoftheweb/Bhaskar maths.JPG",
       },
       {
-        name: "XYZ",
-        title: "xyz",
-        EduQua: "xyz",
-        Subject: "xyz",
-        photo: "https://via.placeholder.com/150",
+        name: "Mrs.Junmoni Gogoi",
+        title: "10+ teaching experience",
+        EduQua: "B.Sc, M.Sc [Physics]",
+        Subject: "G.Maths, Adv.Maths, Physics",
+        photo: "src/Pictures/picturesoftheweb/Junmoni BURAGOHAIN phy.jpg",
       },
       {
-        name: "XYZ",
-        title: "xyz",
-        EduQua: "xyz",
-        Subject: "xyz",
-        photo: "https://via.placeholder.com/150",
+        name: "Mrs, Pompy Borah",
+        title: "10+ teaching experience",
+        EduQua: "B.Sc[Zoology], M.Sc[Zoology], B.Ed ",
+        Subject: "Zoology",
+        photo: "src/Pictures/picturesoftheweb/Pompy Zoology.JPG",
       },
       {
-        name: "XYZ",
-        title: "xyz",
-        EduQua: "xyz",
-        Subject: "xyz",
-        photo: "https://via.placeholder.com/150",
+        name: "Mrs. Minakshi Konwar",
+        title: "5+ teaching experience",
+        EduQua: "MSCi Biotechnology",
+        Subject: "Bontany",
+        photo: "src/Pictures/picturesoftheweb/Minakshi Botany.jpg",
       },
     ],
     Arts: [
       {
-        name: "XYZ",
-        title: "xyz",
-        EduQua: "xyz",
-        Subject: "xyz",
+        name: "Mrs. Labhinaa Chutia",
+        title: "6+ teaching experience",
+        EduQua: "M.A",
+        Subject: "Geography",
         photo: "https://via.placeholder.com/150",
       },
       {
-        name: "XYZ",
-        title: "xyz",
-        EduQua: "xyz",
-        Subject: "xyz",
+        name: "Mrs. Binita Borah Mahanata",
+        title: "20+ teaching experience",
+        EduQua: "M.A [Education]",
+        Subject: "Education",
         photo: "https://via.placeholder.com/150",
       },
       {
-        name: "XYZ",
-        title: "xyz",
-        EduQua: "xyz",
-        Subject: "xyz",
+        name: "Mr. Debeswar Gogoi",
+        title: "12+ teaching experience",
+        EduQua: "B.A [History], M.A [History]",
+        Subject: "History",
+        photo: "src/Pictures/picturesoftheweb/Debeshwar History.JPG",
+      },
+      {
+        name: "Mr. Tapan Kr. Sharma",
+        title: "25+ teaching experience",
+        EduQua: "B.A [English], M.A [English], B.Ed",
+        Subject: "English",
         photo: "https://via.placeholder.com/150",
       },
       {
-        name: "XYZ",
-        title: "xyz",
-        EduQua: "xyz",
-        Subject: "xyz",
+        name: "Mr. Lakshyajyoti Mohan",
+        title: "1+ teaching experience",
+        EduQua: "M.A Assamese, B.Ed",
+        Subject: "Assamese",
+        photo: "src/Pictures/picturesoftheweb/Lakhsayajyoti Mohan Assamese.jpg",
+      },
+      {
+        name: "Mr. Runa Sharma ",
+        title: "16+ teaching experience",
+        EduQua: "B.Ed [English], LLB",
+        Subject: "English",
         photo: "https://via.placeholder.com/150",
       },
       {
-        name: "XYZ",
-        title: "xyz",
-        EduQua: "xyz",
-        Subject: "xyz",
+        name: "Mrs. Sangeeta Chetia",
+        title: "15+ teaching experience",
+        EduQua: "M.A [Economics], B.Ed",
+        Subject: "Economics",
         photo: "https://via.placeholder.com/150",
       },
       {
-        name: "XYZ",
-        title: "xyz",
-        EduQua: "xyz",
-        Subject: "xyz",
+        name: "Mrs. Chanchal Sharma",
+        title: "10+ teaching experience",
+        EduQua: "M.A[Pol.science], M.A[Hindi], M.Phil, B.Ed",
+        Subject: "Pol.Science",
         photo: "https://via.placeholder.com/150",
       },
       {
-        name: "XYZ",
-        title: "xyz",
-        EduQua: "xyz",
-        Subject: "xyz",
+        name: "Mrs. Jonali Saikia Boruah",
+        title: "10+ teaching experience",
+        EduQua: "M.A [Assamese]",
+        Subject: "Assamese",
         photo: "https://via.placeholder.com/150",
       },
       {
-        name: "XYZ",
-        title: "xyz",
-        EduQua: "xyz",
-        Subject: "xyz",
-        photo: "https://via.placeholder.com/150",
-      },
-      {
-        name: "XYZ",
-        title: "xyz",
-        EduQua: "xyz",
-        Subject: "xyz",
-        photo: "https://via.placeholder.com/150",
-      },
-      {
-        name: "XYZ",
-        title: "xyz",
-        EduQua: "xyz",
-        Subject: "xyz",
+        name: "Mrs. Sarita Pandey",
+        title: "15+  teaching experience",
+        EduQua: "M.A [Hindi], B.Ed",
+        Subject: "Hindi",
         photo: "https://via.placeholder.com/150",
       },
     ],
@@ -185,7 +185,7 @@ function Faculty() {
                   <img
                     src={faculty.photo}
                     alt={faculty.name}
-                    className="w-52 h-32 object-cover mx-auto mb-2"
+                    className="w-52 h-42 object-cover mx-auto mb-2"
                   />
                   <h3 className="text-xl font-semibold mb-2">{faculty.name}</h3>
                   <p className="text-lg mb-2">{faculty.title}</p>
@@ -210,7 +210,7 @@ function Faculty() {
                   <img
                     src={faculty.photo}
                     alt={faculty.name}
-                    className="w-52 h-32 object-cover mx-auto mb-2"
+                    className="w-52 h-42 object-cover mx-auto mb-2"
                   />
                   <h3 className="text-xl font-semibold mb-2">{faculty.name}</h3>
                   <p className="text-lg mb-2">{faculty.title}</p>
@@ -235,7 +235,7 @@ function Faculty() {
                   <img
                     src={faculty.photo}
                     alt={faculty.name}
-                    className="w-52 h-32 object-cover mx-auto mb-4"
+                    className="w-52 h-42 object-cover mx-auto mb-4"
                   />
                   <h3 className="text-xl font-semibold mb-2">{faculty.name}</h3>
                   <p className="text-lg mb-2">{faculty.title}</p>

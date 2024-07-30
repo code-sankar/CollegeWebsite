@@ -29,7 +29,7 @@ const About = () => {
               function held at the site on 19.01.1986 attended by a number of
               local dignitaries.
               <img
-                src="https://via.placeholder.com/150"
+                src="src/Pictures/about/Fr alex.jpg"
                 alt="Demo"
                 className="w-44 h-40 rounded-lg p-1"
               />
@@ -54,10 +54,11 @@ const About = () => {
               were shifted to the new building while the construction of the
               first floor was simultaneously going on.
               <img
-                src="https://via.placeholder.com/150"
+                src="src/Pictures/about/sch building foundation.png"
                 alt="Demo"
                 className="w-72 h-44 rounded-lg p-1 mx-auto my-auto"
               />
+              
             </p>
             <p className="mt-2">
               In July, 1988 the sisters of the Holy Cross of Chavanod joined the
@@ -77,7 +78,7 @@ const About = () => {
               26.12.1990.{" "}
               <p>
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="src/Pictures/about/convent starting.png"
                   alt="Demo"
                   className="w-72 h-44 rounded-lg p-1 mx-auto my-auto"
                 />
@@ -87,7 +88,7 @@ const About = () => {
               with 660 students.{" "}
               <p>
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="src/Pictures/about/IMG_20240731_002831.jpg"
                   alt="Demo"
                   className="w-72 h-44 rounded-lg p-1 mx-auto my-auto"
                 />
@@ -101,7 +102,7 @@ const About = () => {
             </p>
             <p className="mt-1">
               <img
-                src="https://via.placeholder.com/150"
+                src="src/Pictures/about/IMG_20240730_235331.jpg"
                 alt="Demo"
                 className="w-44 h-40 rounded-lg p-1"
               />
@@ -122,7 +123,7 @@ const About = () => {
                 Secular spirit of our Nation.
               </p>{" "}
               <img
-                src="https://via.placeholder.com/150"
+                src="src/Pictures/about/fr Joy in KG initiation day (1).png"
                 alt="Demo"
                 className="w-72 h-44 rounded-lg p-1 mx-auto my-auto"
               />
@@ -136,11 +137,11 @@ const About = () => {
                 year 1997 under the guidance of Fr. Joy and the Sir Mr. Dilip
                 Kr. Das.{" "}
               </p>
-              <img
+              {/* <img
                 src="https://via.placeholder.com/150"
                 alt="Demo"
                 className="w-72 h-44 rounded-lg p-1 mx-auto my-auto"
-              />
+              /> */}
             </p>
             <p className="mt-6">
               <b>Rev Fr. Jose Varghese (1999-2005)</b>
@@ -172,11 +173,28 @@ const About = () => {
               2004) one among five members was selected from the District, who
               participated in the “All Assam Children’s Training Camp, 2002”
               organized by Srimanta Sankardev Kalashetra, Guwahati.
-              <img
-                src="https://via.placeholder.com/150"
-                alt="Demo"
-                className="w-72 h-44 rounded-lg p-1 mx-auto my-auto"
-              />
+              <div className="grid grid-cols-3 gap-2">
+                <img
+                  src="src/Pictures/about/IMG_20240731_000804.jpg"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1"
+                />
+                <img
+                  src="src/Pictures/about/IMG_20240731_000742.jpg"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1"
+                />
+                <img
+                  src="src/Pictures/about/IMG_20240731_000719.jpg"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1"
+                />
+                <img
+                  src="src/Pictures/about/IMG_20240731_000657.jpg"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1"
+                />
+              </div>
             </p>
             <p className="mt-2">
               The construction of the second floor of Boys & Girls Boarding’s
@@ -187,7 +205,7 @@ const About = () => {
             <p className="mt-6">
               <b>Rev Fr. Jose Mulloparampil (2005-2010) </b>
               <img
-                src="https://via.placeholder.com/150"
+                src="src/Pictures/about/IMG_20240731_000410.jpg"
                 alt="Demo"
                 className="w-44 h-40 rounded-lg p-1"
               />
@@ -200,17 +218,17 @@ const About = () => {
               auditorium became the 3rd largest in Sivasagar
               <div className="grid grid-cols-3 gap-2">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="src/Pictures/about/auditorium-1.JPG"
                   alt="Demo"
                   className="w-72 h-44 rounded-lg p-1"
                 />
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="src/Pictures/about/IMG_20240731_000637.jpg"
                   alt="Demo"
                   className="w-72 h-44 rounded-lg p-1"
                 />
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="src/Pictures/about/20240519055618_IMG_6597-1.JPG"
                   alt="Demo"
                   className="w-72 h-44 rounded-lg p-1"
                 />
@@ -219,7 +237,7 @@ const About = () => {
             <p className="mt-6">
               <b>Rev Fr. Vijay Minj (2010-2018)</b>
               <img
-                src="https://via.placeholder.com/150"
+                src="src/Pictures/about/IMG_20240731_000427.jpg"
                 alt="Demo"
                 className="w-44 h-40 rounded-lg p-1"
               />
@@ -239,35 +257,31 @@ const About = () => {
             </p>
             <div className="grid grid-cols-3 gap-2">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="src/Pictures/about/IMG_20240731_000508.jpg"
                   alt="Demo"
                   className="w-72 h-44 rounded-lg p-1"
                 />
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="src/Pictures/about/IMG_20240731_000532.jpg"
                   alt="Demo"
                   className="w-72 h-44 rounded-lg p-1"
                 />
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="src/Pictures/about/IMG-20240730-WA0035.jpg"
                   alt="Demo"
                   className="w-72 h-44 rounded-lg p-1"
                 />
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="src/Pictures/about/IMG_20240731_000603.jpg"
                   alt="Demo"
                   className="w-72 h-44 rounded-lg p-1"
                 />
-                <img
-                  src="https://via.placeholder.com/150"
-                  alt="Demo"
-                  className="w-72 h-44 rounded-lg p-1"
-                />
+                
               </div>
             <p className="mt-6">
               <b>Rev Fr. Bartholomew Bhengra (2018-2018)</b>
               <img
-                src="https://via.placeholder.com/150"
+                src="src/Pictures/about/IMG_20240731_000445.jpg"
                 alt="Demo"
                 className="w-44 h-40 rounded-lg p-1"
               />
@@ -286,7 +300,7 @@ const About = () => {
             <p className="mt-6">
               <b>Rev Fr. Hemanta Pegu (2021-20**)</b>
               <img
-                src="https://via.placeholder.com/150"
+                src="src/Pictures/picturesoftheweb/Fr Hemanta Pegu.JPG"
                 alt="Demo"
                 className="w-44 h-40 rounded-lg p-1"
               />
@@ -304,30 +318,26 @@ const About = () => {
               </p>
               <div className="grid grid-cols-3 gap-2">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="src/Pictures/about/Chemistry Lab (1).jpg"
                   alt="Demo"
                   className="w-72 h-44 rounded-lg p-1"
                 />
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="src/Pictures/about/bio lab (1).jpg"
                   alt="Demo"
                   className="w-72 h-44 rounded-lg p-1"
                 />
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="src/Pictures/about/computer lab HS building (1).jpg"
                   alt="Demo"
                   className="w-72 h-44 rounded-lg p-1"
                 />
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="src/Pictures/about/school building (1).JPG"
                   alt="Demo"
                   className="w-72 h-44 rounded-lg p-1"
                 />
-                <img
-                  src="https://via.placeholder.com/150"
-                  alt="Demo"
-                  className="w-72 h-44 rounded-lg p-1"
-                />
+                
               </div>
              </p> 
             <p className="mt-5">

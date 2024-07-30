@@ -10,10 +10,12 @@ import StudentPortalBtn from "../StudentPortal/StudentPortalBtn";
 function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    "src/Pictures/IMG-20240721-WA0001.jpg",
-    "src/Pictures/IMG-20240721-WA0002.jpg",
-    "src/Pictures/IMG-20240721-WA0003.jpg",
-    "src/Pictures/IMG-20240721-WA0004.jpg",
+    "src/Pictures/1.JPG",
+    "src/Pictures/2.JPG",
+    "src/Pictures/3.JPG",
+    "src/Pictures/4.JPG",
+    "src/Pictures/5.JPG",
+    "src/Pictures/6.JPG",
   ];
 
   useEffect(() => {

@@ -8,31 +8,49 @@ function Header() {
 
   return (
     <header className="shadow z-50 top-0">
-      <div className="flex flex-col md:flex-row justify-between items-center h-auto md:h-20 w-full bg-blue-600 p-4 shadow-lg">
-        <div className="flex items-center mb-4 md:mb-0">
+      {/* Top Section with Logo, School Name, and Admin Login */}
+      <div className="flex flex-col md:flex-row justify-between items-center h-auto md:h-30 w-full bg-purple-700 p-4 shadow-lg">
+        <div className="flex items-center mb-4 ml-60  md:mb-0">
           <Link to="/">
             <img
               src="src/Pictures/Logo.jpg"
-              className="h-16 w-16 rounded-lg ml-4"
+              className="h-24 w-24 rounded-lg ml-4"
               alt="Logo"
             />
           </Link>
         </div>
-        <div className="flex-1 text-center mb-4 md:mb-0">
-          <h1 className="text-white text-2xl md:text-3xl font-bold">
-            Holy Name H.S School, Sivsagar
+        <div className="flex-1 text-center mb-4 ml-10 md:mb-0">
+          <h1 className="text-white text-2xl md:text-3xl font-bold uppercase">
+            Holy Name Senior Secondary School, Sivsagar
           </h1>
           <h2 className="text-white text-base md:text-xl font-bold">
             হলী নেম হাই চেকেণ্ডাৰী স্থূল, সিৱসাগৰ
           </h2>
+          <p className="text-white text-sm md:text-lg">
+            Cherekapar, Dist:- Sivasagar, Assam-785640
+          </p>
+          <p className="text-white text-sm md:text-lg">Ph- 6901055733</p>
         </div>
-        <div className="flex items-center">
+        <div className=" items-center mb-4 mr-48 md:mb-0 hidden sm:block">
+          <Link to="/">
+            <img
+              src="src/Pictures/Logo.jpg"
+              className="h-24 w-24 rounded-lg ml-4"
+              alt="Logo"
+            />
+          </Link>
+        </div>
+        <div className="flex items-center mr-10">
           <AdminLoginBtn />
         </div>
       </div>
 
-      <nav className="main-nav bg-white border-gray-200 px-4 lg:px-6 py-4 top-0 z-50">
+      {/* Navigation Section */}
+      <nav className="main-nav bg-white border-gray-200 px-4 lg:px-6 py-4 top-0 z-50 sticky">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+          <div className="hidden lg:block text-bold right-4 float-right pr-4 font-medium">
+            <p>Phone: +91 8064356687, +91 6901055733</p>
+          </div>
           <div
             className={`${
               showMediaIcons ? "block" : "hidden"
@@ -156,7 +174,7 @@ function Header() {
                     } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                   }
                 >
-                  Complaints
+                  Suggestions
                 </NavLink>
               </li>
               <li>
@@ -172,9 +190,6 @@ function Header() {
                 </NavLink>
               </li>
             </ul>
-          </div>
-          <div className="hidden lg:block text-bold right-4 float-right pr-4 font-medium">
-            +91 8064356687
           </div>
           <div className="lg:hidden">
             <button

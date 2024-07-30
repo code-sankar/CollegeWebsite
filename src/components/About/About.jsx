@@ -28,6 +28,11 @@ const About = () => {
               functions. The formal opening of the center was done in a public
               function held at the site on 19.01.1986 attended by a number of
               local dignitaries.
+              <img
+                src="https://via.placeholder.com/150"
+                alt="Demo"
+                className="w-44 h-40 rounded-lg p-1"
+              />
             </p>
             <p className="mt-6">
               <b>Fr. Alex Kapiarumala</b>
@@ -38,14 +43,7 @@ const About = () => {
               at the initial stage with a make-shift shelter with three classes
               comprising NURSERY, K.G, and Class I. There were Seventy Two (72)
               students and four teachers, some of them being Mrs. Annie Thomas,
-              Mrs. Christy Ragland and Mrs. Indrani Borpujari. The foundation
-              stone of the permanent structure of the School was laid by most
-              Rev. Thomas Menaparampil SDB, DD in the presence of other
-              dignitaries, teachers and students in the month of October 1987
-              and the construction work of the ground was completed in March
-              1989. As the rooms of the ground floor were ready, classes were
-              shifted to the new building while the construction of the first
-              floor was simultaneously going on.
+              Mrs. Christy Ragland and Mrs. Indrani Borpujari.
             </p>
             <p className="mt-2">
               The foundation stone of the permanent structure of the School was
@@ -55,6 +53,11 @@ const About = () => {
               March 1989. As the rooms of the ground floor were ready, classes
               were shifted to the new building while the construction of the
               first floor was simultaneously going on.
+              <img
+                src="https://via.placeholder.com/150"
+                alt="Demo"
+                className="w-72 h-44 rounded-lg p-1 mx-auto my-auto"
+              />
             </p>
             <p className="mt-2">
               In July, 1988 the sisters of the Holy Cross of Chavanod joined the
@@ -71,16 +74,37 @@ const About = () => {
               Thomas Menaparampil SDB, DD and inaugurated by Lt. Mr. Parag
               Chaliha, a prominent local citizen and Ex-MP from Sivasagar in the
               presence of many guests including the then D.C of Sivasagar on
-              26.12.1990. The first floor of the school building was completed
-              under the supervision of Fr. Alex and the School was upgraded to
-              Class VII with 660 students. The construction of the permanent
-              residence for the fathers was started in 1990 and the work of the
-              ground floor was completed in 1992.
+              26.12.1990.{" "}
+              <p>
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1 mx-auto my-auto"
+                />
+              </p>{" "}
+              The first floor of the school building was completed under the
+              supervision of Fr. Alex and the School was upgraded to Class VII
+              with 660 students.{" "}
+              <p>
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1 mx-auto my-auto"
+                />
+              </p>{" "}
+              The construction of the permanent residence for the fathers was
+              started in 1990 and the work of the ground floor was completed in
+              1992.
             </p>
             <p className="mt-6">
               <b>Fr. Joseph (Joy )Pallikunnel (1992-1999) </b>
             </p>
             <p className="mt-1">
+              <img
+                src="https://via.placeholder.com/150"
+                alt="Demo"
+                className="w-44 h-40 rounded-lg p-1"
+              />
               After the transfer of Fr. Alex on 11.04.1992, Fr. Joseph (Joy)
               Pallikunnel was appointed as the next principal of the School. Fr.
               Joy took up the infrastructure work of the School at a marathon
@@ -88,20 +112,43 @@ const About = () => {
               tried to introduce some of the time tested local customs in the
               School like “Guru Sishya Parampara” blessing of the HSLC
               candidates in the Church and the students seeking blessings from
-              their “Gurus". On the Initiation day the KG-I students were
-              encouraged to offer a “Dakshina” of Rs 1.25 in coins, and the
-              Assamese traditional “Phulam Gamusas” to their “Gurus”. Short
-              passages from The Bible, The Gita and The Quran were also read
-              symbolizing the Secular spirit of our Nation. By the year 1995,
-              the School was blessed with all the necessary facilities in the
-              campus such as a library, a medium size Playground, and Staff
-              rooms, separate toilets for the boys and girls and also the School
-              Boarding. The school organized a study tour for the students to
-              the South for the first time in the year 1997 under the guidance
-              of Fr. Joy and the Sir Mr. Dilip Kr. Das.
+              their “Gurus".{" "}
+              <p>
+                {" "}
+                On the Initiation day the KG-I students were encouraged to offer
+                a “Dakshina” of Rs 1.25 in coins, and the Assamese traditional
+                “Phulam Gamusas” to their “Gurus”. Short passages from The
+                Bible, The Gita and The Quran were also read symbolizing the
+                Secular spirit of our Nation.
+              </p>{" "}
+              <img
+                src="https://via.placeholder.com/150"
+                alt="Demo"
+                className="w-72 h-44 rounded-lg p-1 mx-auto my-auto"
+              />
+              <p>
+                {" "}
+                By the year 1995, the School was blessed with all the necessary
+                facilities in the campus such as a library, a medium size
+                Playground, and Staff rooms, separate toilets for the boys and
+                girls and also the School Boarding. The school organized a study
+                tour for the students to the South for the first time in the
+                year 1997 under the guidance of Fr. Joy and the Sir Mr. Dilip
+                Kr. Das.{" "}
+              </p>
+              <img
+                src="https://via.placeholder.com/150"
+                alt="Demo"
+                className="w-72 h-44 rounded-lg p-1 mx-auto my-auto"
+              />
             </p>
             <p className="mt-6">
               <b>Rev Fr. Jose Varghese (1999-2005)</b>
+              <img
+                src="https://via.placeholder.com/150"
+                alt="Demo"
+                className="w-44 h-40 rounded-lg p-1"
+              />
             </p>
             <p className="mt-1">
               To inculcate in the students a spirit of team work, Co-operation
@@ -125,6 +172,11 @@ const About = () => {
               2004) one among five members was selected from the District, who
               participated in the “All Assam Children’s Training Camp, 2002”
               organized by Srimanta Sankardev Kalashetra, Guwahati.
+              <img
+                src="https://via.placeholder.com/150"
+                alt="Demo"
+                className="w-72 h-44 rounded-lg p-1 mx-auto my-auto"
+              />
             </p>
             <p className="mt-2">
               The construction of the second floor of Boys & Girls Boarding’s
@@ -134,6 +186,11 @@ const About = () => {
             </p>
             <p className="mt-6">
               <b>Rev Fr. Jose Mulloparampil (2005-2010) </b>
+              <img
+                src="https://via.placeholder.com/150"
+                alt="Demo"
+                className="w-44 h-40 rounded-lg p-1"
+              />
             </p>
             <p className="mt-1">
               Fr. Jose Mulloparampil undertook the much needed work of
@@ -141,9 +198,31 @@ const About = () => {
               being the Auditorium and the 1st floor the Church. The
               construction was completed in just two and half years. The
               auditorium became the 3rd largest in Sivasagar
+              <div className="grid grid-cols-3 gap-2">
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1"
+                />
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1"
+                />
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1"
+                />
+              </div>
             </p>
             <p className="mt-6">
               <b>Rev Fr. Vijay Minj (2010-2018)</b>
+              <img
+                src="https://via.placeholder.com/150"
+                alt="Demo"
+                className="w-44 h-40 rounded-lg p-1"
+              />
             </p>
             <p className="mt-1">
               Fr Vijay completed the extension work of the boys boarding. He
@@ -156,9 +235,42 @@ const About = () => {
               was attended by most of our past students of the School. It was an
               overwhelming moment to see the lights of Holy Name School shining
               bright in various parts of the country and abroad
+              
             </p>
+            <div className="grid grid-cols-3 gap-2">
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1"
+                />
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1"
+                />
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1"
+                />
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1"
+                />
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1"
+                />
+              </div>
             <p className="mt-6">
               <b>Rev Fr. Bartholomew Bhengra (2018-2018)</b>
+              <img
+                src="https://via.placeholder.com/150"
+                alt="Demo"
+                className="w-44 h-40 rounded-lg p-1"
+              />
             </p>
             <p className="mt-1">
               Fr. Bartholomew’s tenure was mostly marked by the Pandemic
@@ -173,18 +285,51 @@ const About = () => {
             </p>
             <p className="mt-6">
               <b>Rev Fr. Hemanta Pegu (2021-20**)</b>
+              <img
+                src="https://via.placeholder.com/150"
+                alt="Demo"
+                className="w-44 h-40 rounded-lg p-1"
+              />
             </p>
-            <p className="mt-1">
+            <p>
               Fr. Hemanta initiated the opening of the Senior Secondary section
               of the school with the Science & Arts Stream in the already
               existing boys boarding building. The Computer Laboratory in the
               Senior Secondary section was given a face-lift with additional
               computers. In the ground floor of the same building well-equipped
               laboratories of Physics, Chemistry and Biology are set up for the
-              benefit of Senior Secondary students. Fr. Hemanta has also
+              benefit of Senior Secondary students. <p> Fr. Hemanta has also
               introduced NCC & Scouts and Guides for the first time in Holy Name
               School and still counting…………………………………………..
-            </p>
+              </p>
+              <div className="grid grid-cols-3 gap-2">
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1"
+                />
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1"
+                />
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1"
+                />
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1"
+                />
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Demo"
+                  className="w-72 h-44 rounded-lg p-1"
+                />
+              </div>
+             </p> 
             <p className="mt-5">
               <i>
                 “We are confident that with all the necessary facilities placed
@@ -291,6 +436,7 @@ const About = () => {
           </div>
         </div> */}
         </div>
+        
       </div>
       <section>
         <div className="p-1 ml-3 mr-3 bg-gray-100 text-lg w-full">

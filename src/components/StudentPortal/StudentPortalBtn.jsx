@@ -7,8 +7,8 @@ function StudentAdmin() {
     <NavLink
       to="/studentportal"
       className={({ isActive }) =>
-        `bg-orange-500 hover:bg-orange-700 text-white text-center text-2xl pt-5 font-bold py-2 px-4 w-full h-16 rounded duration-200 ${
-          isActive ? "bg-orange-700" : "bg-orange-500"
+        `bg-blue-500 hover:bg-purple-700 text-white text-center text-2xl pt-5 font-bold py-2 px-4 w-full h-28 rounded-full duration-200 ${
+          isActive ? "bg-blue-700" : "bg-blue-500"
         }`
       }
     >

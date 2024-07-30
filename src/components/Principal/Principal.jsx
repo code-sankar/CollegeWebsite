@@ -11,7 +11,14 @@ function Principal() {
           "Flowers leave part of their fragrance in the hand that bestows them"
         </p>
         <div className="flex flex-wrap md:flex-nowrap items-start mt-6">
-          <div className="md:w-3/4 pr-4">
+          <div className="md:w-1/4 flex justify-centre md:justify-start mt-4 md:mt-0 pr-2 pl-3">
+            <img
+              src="src/Pictures/picturesoftheweb/Fr Hemanta Pegu.JPG"
+              alt="Principal"
+              className="w-96 h-40 shadow-lg transition duration-500 ease-in-out transform hover:scale-105 size-max rounded-3xl"
+            />
+          </div>
+          <div className="md:w-3/4 pl-4">
             <p className="text-gray-700 text-justify leading-relaxed mb-6">
               Holy Name HS School, Cherekapar Sivasagar, has been renowned not
               only for its academic excellence but also for its focus on moral
@@ -50,13 +57,6 @@ function Principal() {
               Aristotle once said, "Educating the mind without educating the
               heart is no education at all."
             </p>
-          </div>
-          <div className="md:w-1/4 flex justify-center md:justify-end mt-4 md:mt-0 pr-2 pl-3">
-            <img
-              src="src/Pictures/picturesoftheweb/Fr Hemanta Pegu.JPG" // Replace with the actual URL for the principal's photo
-              alt="Principal"
-              className="w-96 h-40 shadow-lg transition duration-500 ease-in-out transform hover:scale-105 size-max"
-            />
           </div>
         </div>
         <footer className="mt-8 flex flex-col items-center italic text-gray-600 text-center">

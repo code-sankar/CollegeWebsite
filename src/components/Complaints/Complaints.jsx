@@ -7,12 +7,12 @@ function Complaints() {
   const [parentOf, setParentOf] = useState('');
   const [guardianEmail, setGuardianEmail] = useState('');
 
-  const [studentComplaint, setStudentComplaint] = useState('');
-  const [studentName, setStudentName] = useState('');
-  const [studentClass, setStudentClass] = useState('');
-  const [studentSection, setStudentSection] = useState('');
-  const [studentRollNo, setStudentRollNo] = useState('');
-  const [studentEmail, setStudentEmail] = useState('');
+  // const [studentComplaint, setStudentComplaint] = useState('');
+  // const [studentName, setStudentName] = useState('');
+  // const [studentClass, setStudentClass] = useState('');
+  // const [studentSection, setStudentSection] = useState('');
+  // const [studentRollNo, setStudentRollNo] = useState('');
+  // const [studentEmail, setStudentEmail] = useState('');
 
   const handleGuardianSubmit = async (e) => {
     e.preventDefault();
@@ -37,43 +37,43 @@ function Complaints() {
     }
   };
 
-  const handleStudentSubmit = async (e) => {
-    e.preventDefault();
+  // const handleStudentSubmit = async (e) => {
+  //   e.preventDefault();
 
-    const studentData = {
-      name: studentName,
-      class: studentClass,
-      section: studentSection,
-      rollNo: studentRollNo,
-      email: studentEmail,
-      complaint: studentComplaint,
-    };
+  //   const studentData = {
+  //     name: studentName,
+  //     class: studentClass,
+  //     section: studentSection,
+  //     rollNo: studentRollNo,
+  //     email: studentEmail,
+  //     complaint: studentComplaint,
+  //   };
 
-    try {
-      await axios.post('', studentData); // Enter API (yeha pe api dalo)
-      alert('Student complaint submitted successfully');
-      setStudentName('');
-      setStudentClass('');
-      setStudentSection('');
-      setStudentRollNo('');
-      setStudentEmail('');
-      setStudentComplaint('');
-    } catch (error) {
-      console.error('Error submitting student complaint:', error);
-      alert('Failed to submit student complaint');
-    }
-  };
+  //   try {
+  //     await axios.post('', studentData); // Enter API (yeha pe api dalo)
+  //     alert('Student complaint submitted successfully');
+  //     setStudentName('');
+  //     setStudentClass('');
+  //     setStudentSection('');
+  //     setStudentRollNo('');
+  //     setStudentEmail('');
+  //     setStudentComplaint('');
+  //   } catch (error) {
+  //     console.error('Error submitting student complaint:', error);
+  //     alert('Failed to submit student complaint');
+  //   }
+  // };
 
   return (
     <div>
       <section className="bg-gray-200 text-gray-800 p-10">
         <div className="container mx-auto space-y-10">
-          <h2 className="text-3xl font-bold text-center mb-10">Complaints/Suggestions</h2>
+          <h2 className="text-3xl font-bold text-center mb-10">Suggestions</h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="  md:grid-cols-2 gap-10 justify-center">
             {/* Guardian Complaint Box */}
             <div className="bg-white p-6 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold mb-4">Guardians' Complaint Box</h3>
+              <h3 className="text-2xl font-bold mb-4">Guardians' Suggestions Box</h3>
               <form onSubmit={handleGuardianSubmit} className="space-y-4">
                 <textarea
                   className="w-full p-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" 
@@ -113,7 +113,7 @@ function Complaints() {
             </div>
 
             {/* Student Complaint Box */}
-            <div className="bg-white p-6 rounded-lg shadow-lg">
+            {/* <div className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold mb-4">Students' Complaint Box</h3>
               <form onSubmit={handleStudentSubmit} className="space-y-4">
                 <textarea
@@ -165,7 +165,7 @@ function Complaints() {
                   Submit
                 </button>
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
